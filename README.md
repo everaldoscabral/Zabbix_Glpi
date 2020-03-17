@@ -6,8 +6,23 @@ Source: https://github.com/janssenlima/zabbix-glpi
 ## Requirements
 - **Script**: 
     - **ack_zabbix_glpi.py** is the script that recognizes the event in Zabbix via API.
+    
+        Change (according to your settings): 
+        - server = "_http://zabbix_ip_addresses/zabbix_"
+        - username = "_zabbix_username_"
+        - password = "_zabbix_password_"
+        
     - **tickets_zabbix_glpi.php** is the script that opens and closes tickets in GLPI using the Webservices plugin.
- 
+        
+        Change (according to your settings):
+        - $user =     	"zabbix_username";
+        - $password = 	"zabbix_password";
+        - $xmlhost =  	"ip_addresses_of_glpi";
+        - $sqlhost = 	"ip_addresses_of_glpi";
+        - $sqldb = 	"glpi_databse";
+        - $sqluser =  	"glpi_username";
+        - $sqlpwd =   	"glpi_password";
+        
 - **Zabbix 4.4.1**
     - In **/etc/zabbix/zabbix_agentd.conf** find and set: EnableRemoteCommands=1
 - **PHP 5.6**
