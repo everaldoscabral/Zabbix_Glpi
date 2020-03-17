@@ -65,3 +65,5 @@ Download scripts: **ack_zabbix_glpi.py** and **tickets_zabbix_glpi.php** and mvo
        > php5.6 /usr/lib/zabbix/externalscripts/tickets_zabbix_glpi.php eventhost="{HOSTNAME}" event="UP" state="{TRIGGER.STATUS}" hostproblemid=1 lasthostproblemid=1 servico="{TRIGGER.NAME}" triggerid="{TRIGGER.ID}" eventzabbix="{EVENT.ID}"
        
 3. Click Update (_Operations_) > Update
+
+#### <<< Finaly test >>> 
