@@ -1,10 +1,10 @@
 from zabbix_api import ZabbixAPI
 import sys
- 
-server = "http://10.1.10.90/zabbix"
-username = "glpi"             
-password = "Emergency@112"     
- 
+
+server = "http://zabbix_ip_addresses/zabbix"
+username = "zabbix_username"
+password = "zabbix_password"
+
 conexao = ZabbixAPI(server = server)
 conexao.login(username, password)
 

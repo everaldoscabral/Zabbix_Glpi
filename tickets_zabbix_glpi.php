@@ -7,17 +7,17 @@
 // -----------------------------------------------------------------------------------------
 // Configuracoes:
 // -----------------------------------------------------------------------------------------
-$user =     	"zabbix";
-$password = 	"Emergency@112";
-$xmlhost =  	"10.1.10.104";
+$user =     	"zabbix_username";
+$password = 	"zabbix_password";
+$xmlhost =  	"ip_addresses_of_glpi";
 $xmlurl =   	"glpi/plugins/webservices/xmlrpc.php";
 $category = 	"";
 $watcher = 	"2";
 $watchergroup = "1";
-$sqlhost = 	"10.1.10.104";
-$sqldb = 	"glpidb";
-$sqluser =  	"glpiuser";
-$sqlpwd =   	"glpipss";
+$sqlhost = 	"ip_addresses_of_glpi";
+$sqldb = 	"glpi_databse";
+$sqluser =  	"glpi_username";
+$sqlpwd =   	"glpi_password";
 $path_zabbix = 	"/usr/lib/zabbix/externalscripts";
 // ------------------------------------------------------------------------------------------------------------------------
 
