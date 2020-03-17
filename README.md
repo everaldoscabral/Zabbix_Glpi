@@ -2,7 +2,7 @@
 These scripts automatic opening and closing GLPI tickets using API.
 
 Source: https://github.com/janssenlima/zabbix-glpi
-> **Tested and running on Ubuntu 18.04 64 bit.**
+> **Tested and running on Ubuntu 18.04 64 bit and Zabbix 4.4.1**
 ## Requirements
 - **Script**:
     - **ack_zabbix_glpi.py** is the script that recognizes the event in Zabbix via API.
