@@ -17,4 +17,4 @@ Source: https://github.com/janssenlima/zabbix-glpi
 - API Zabbix development in Python, just execute in terminal -> # **pip install zabbix-api** ( on both servers: **GLPI** and **Zabbix** - if they are on different linux servers )
 
 ## Installing
-Download scripts: **ack_zabbix_glpi.py** and **tickets_zabbix_glpi.php** and put into zabbix directory: **_/usr/lib/zabbix/externalscripts_**
+    Download scripts: **ack_zabbix_glpi.py** and **tickets_zabbix_glpi.php** and put into zabbix directory: **_/usr/lib/zabbix/externalscripts_**
