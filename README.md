@@ -1,5 +1,5 @@
 ## Zabbix integration with GLPI
-These scripts automatic opening and closing GLPI tickets using API.
+These scripts automatic opening and closing GLPI tickets using Zabbix-API.
 
 Source: https://github.com/janssenlima/zabbix-glpi
 > **Tested and running on Ubuntu 18.04 64 bit and Zabbix 4.4.1**
