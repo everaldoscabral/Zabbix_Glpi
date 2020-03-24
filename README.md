@@ -40,7 +40,7 @@ Download scripts: **ack_zabbix_glpi.py** and **tickets_zabbix_glpi.php** and mvo
 
 -> # mv * zabbix * /usr/lib/zabbix/externalscripts/
 
--> # chmod + x /usr/lib/zabbix/externalscripts/* zabbix *
+-> # chmod +x /usr/lib/zabbix/externalscripts/* zabbix *
 
 ##  Zabbix web interface
 1. Configuration > Action
