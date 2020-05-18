@@ -30,7 +30,7 @@ Source: https://github.com/janssenlima/zabbix-glpi
      Include: (for both servers)
     - **php-soap**
     - **php-xmlrpc**
-    - **libcurl3-dev
+    - **libcurl3-dev**
     - **php5.6-xmlrpc**
     - **php5.6-curl**
 - **GLPI 4.9.5**
